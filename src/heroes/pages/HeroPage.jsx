@@ -6,7 +6,7 @@ export const HeroPage = () => {
 
     const { id } = useParams();
     const navigate = useNavigate();
-    console.log('id que trae params', id);
+
     const hero = useMemo(() => getHeroById(id), [id]);
 
     const onNavigateBack = () => {
