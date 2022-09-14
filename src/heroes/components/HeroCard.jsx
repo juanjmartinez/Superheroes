@@ -24,7 +24,7 @@ export const HeroCard = ({
     }
 
     return (
-        <div className='col animate__animated animate__fadeIn'>
+        <div className='col-sm-6 col-md-6 col-lg-6 animate__animated animate__fadeIn'>
             <div className='card'>
                 <div className='row no-gutters'>
 
